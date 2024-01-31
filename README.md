@@ -52,11 +52,13 @@ conda activate bpmview
 
 Run the script. 
 ```Bash
-python qt_downstream.py
+python qt_axiscam.py
 ```
 If import complains on gi.repository or Aravis go to /usr/lib and copy the "girepository-1.0" folder to ~/anaconda3/envs/bpmview/lib
 
+Now you can open the settings and change camera name/adress/paths and set warping by dragging the circles to form the corner points of the image.
 
+![Settings screen](setupWarp.png)
 
 
 
